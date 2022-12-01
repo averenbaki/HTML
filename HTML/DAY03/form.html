@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM BURADA</title>
+</head>
+<body>
+    <form action="">
+        <!-- İLK FORMUMU OLUŞTURDUM -->
+        <label for="name">NAME</label>
+        <input type="text" name="name" value="" id="name" placeholder="isim giriniz">
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password">
+        <label for="">ID</label>
+        <input type="number" name="id" placeholder="11 haneli TC no giriniz">
+        <label for="">SEARCH</label>
+        <input type="search" name="search">
+        <label for="">URL</label>
+        <input type="url" name="url">
+        <label for="">EMAIL</label>
+        <input type="email" name="email">
+        <label for="">KULLANILMAZ</label>
+        <input type="text" disabled>
+
+        <!-- FARKLI TÜR KOMUTLAR -->
+        <hr><br>
+        <label for="">CHECKBOX</label>
+        <input type="checkbox" name="" id="">
+
+        <!-- radio-> iki,üç .. seçenekten birini seçmemizi saglar
+        bunun için bütün seçeneklerdeki "name" variablesi aynı olmalı. 
+        value değeride mutlaka girilmeli ki kullanıcının ne seçtiği arka tarafa gönderilebilsin
+        lable deki for ve input daki id ile birbiri ile ilişkilendirilebilir-->
+
+        <input type="radio" name="radio-secenek" id="evli" value="evli" />
+        <label for="evli">EVLI</label>
+        <input type="radio" name="radio-secenek" id="bekar" value="bekar" />
+        <label for="bekar">BEKAR</label>
+        <input type="radio" name="radio-secenek" id="belirtmek istemiyorum" value="not">
+        <label for="">BELIRTMEK ISTEMIYORUM</label>
+
+        <label for="">FILE UPLOAD</label>
+        <input type="file" name="" id="">
+
+        <label for="">DATE SELECT</label>
+        <input type="date" name="" id="">
+
+        <!-- select denemeleri -->
+        <label for="NUMBERS">SEÇENEKLER-OPTIONS</label>
+        <select name="NUMBERS" multiple size="3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <!-- OPTGROUP DENEMESİ -->
+        <label for="">OPTGROUP</label>
+        <select name="" id="">
+            <optgroup label="FRUITS"> 
+            <option value="APPLE">APPLE</option>
+            <option value="BANANAS">BANANAS</option>
+            </optgroup>
+            <optgroup label="VEGETABLES">
+                <option value="TOMATOS">TOMATOS</option>
+                <option value="CUCUMBER">CUCUMBER</option>
+            </optgroup>
+        </select>
+
+        <!-- TEXTAREA DENİYORUM -->
+        <label for="yorum">TEXTAREA</label>
+        <textarea name="yorum" id="yorum" cols="30" rows="10" placeholder="write your comment" required></textarea>
+
+
+        <input type="button" value="BUTTON">
+        <input type="submit" value="SEND">
+        <input type="reset" value="RESET">
+    </form>
+</body>
+</html>
