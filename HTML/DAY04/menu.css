@@ -1,0 +1,28 @@
+*{
+    font-family: 'Zen Dots', cursive;
+}
+
+
+.menu-container{
+    width: 100px; 
+    background-color: gray;
+    text-align: center;
+
+
+}
+.anasayfa{
+    background-color: black
+    ;color: white;
+}
+
+.dekorasyon{
+text-decoration:underline;
+
+}
+.italik{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+

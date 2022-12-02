@@ -1,0 +1,16 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    color:greenyellow;
+    text-align: right;
+}
+p{
+    color: aqua;
+}
+/* class denemesi */
+.baslik{
+    color: brown;
+    text-align: center;
+}
